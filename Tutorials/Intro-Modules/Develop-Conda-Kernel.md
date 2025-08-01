@@ -39,7 +39,7 @@ We will use `conda` and `pip` to install packages and to create, manage, and upd
 
 ## How to Create a Conda Kernel?
 
-This section will showcase the essential steps to create a `conda` environment. Please read through this section first and refer to it when completing the exercises. It is important to ensure that the Python module has been loaded before proceeding.
+## This section will showcase the essential steps to create a `conda` environment. Please read through this section first and refer to it when completing the exercises. It is important to ensure that the Python module has been loaded before proceeding.
 
 ### STEP 1: Create a Conda Environment
 
@@ -82,13 +82,15 @@ Navigate to the Launcher, refresh Jupyter, and under the Notebook section, the M
 
 ## Excersice 1: Create `myEnv` Environment 
 
-Create a `conda` environment named `myEnv` with Python version 3.11.
+This exercise shows you how to create your first environment.
+
+Create a `conda` environment named `my1stEnv` with Python version 3.11.
 
 After activating the environment, create a file named `myFirstEnv.py` using the command `vi myFirstEnv.py`. Press `i` to enter insert mode, then type: `print("My First Conda Env")`. Press `Esc`, then type `:wq` to save and exit the editor. Finally, run the script using: `python3 myFirstEnv.py`
 
 Exected Output: `My First Conda Env`
 
-## Excersice 2: Install Python Packages in `myEnv` Environment 
+## Excersice 2: Install Python Packages in `my1stEnv` Environment 
 
 Install the following modules:
 - `numpy==2.0.0`
@@ -99,7 +101,7 @@ Run the following commands to view module information:
 - `pip show numpy`
 - `pip show pandas`
 
-Deactivate the `myEnv` environment.
+Deactivate the `my1stEnv` environment.
 
 ## Excersice 3: Create `BuildingsBenchKernel` Kernel
 
